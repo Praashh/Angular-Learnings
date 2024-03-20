@@ -2,6 +2,11 @@
   background: var(--accent-color);
   border-radius: 30px;
   padding-bottom: 30px;
+  cursor: pointer;
+  transition: 200ms ;
+}
+.listing:hover{
+  box-shadow: 5px 10px 20px black;
 }
 .listing-heading {
   color: var(--primary-color);
